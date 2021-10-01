@@ -79,7 +79,7 @@ namespace TimeTableGenerator
             }
             else
             {
-                MessageBox.Show("class name can't be empty", "invalid", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("class name can't be empty it is required", "invalid", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             classStore.Add(mydata);
             TBclassName.Text = CBendTIme.Text = CBstartTime.Text = "";  //reset data
