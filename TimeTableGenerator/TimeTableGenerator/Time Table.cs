@@ -52,7 +52,7 @@ namespace TimeTableGenerator
         }
         private void CBstartTime_SelectedIndexChanged(object sender, EventArgs e)
         {
-            startT = System.Convert.ToInt32(CBstartTime.Text);
+            startT = Convert.ToInt32(CBstartTime.Text);
             if (startT>=endT)
             {
                 MessageBox.Show("start time can't be empty", "invalid", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -61,7 +61,7 @@ namespace TimeTableGenerator
 
         private void CBendTIme_SelectedIndexChanged(object sender, EventArgs e)
         {
-            endT = System.Convert.ToInt32(CBendTIme.Text);
+            endT = Convert.ToInt32(CBendTIme.Text);
             if (startT>=endT)
             {
                 MessageBox.Show("start time can't be empty", "invalid", MessageBoxButtons.OK, MessageBoxIcon.Error);
