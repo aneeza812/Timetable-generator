@@ -17,7 +17,7 @@ namespace TimeTableGenerator
             ClassName = "";
             startTime = 0;
             endTime = 0;
-            roomNo = "no assign";
+            roomNo = "not assigned";
         }
 
         public string ClassName
